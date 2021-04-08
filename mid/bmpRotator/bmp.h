@@ -1,6 +1,6 @@
 #pragma once
 
-#include "bmp.h"
+#include "basic.h"
 
 typedef struct _sBmpHeader {
     char bm[2];

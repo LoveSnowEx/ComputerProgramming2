@@ -3,8 +3,8 @@ OBJDIR:=$(shell [ -d obj ] || mkdir obj && echo "obj")
 CFLAGS=-Wall -Wextra -std=gnu11
 LDFLAGS=-lm
 
-TARGETS=bmp_rotator
-bmp_rotator_OBJ=basic.o coord.o bmp.o bmp_rotator.o
+TARGETS=bmpRotator
+bmpRotator_OBJ=basic.o coord.o bmp.o bmpRotator.o
 
 .PHONY: all
 

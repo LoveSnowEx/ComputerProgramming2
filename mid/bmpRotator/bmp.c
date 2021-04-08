@@ -1,5 +1,5 @@
-#include "basic.h"
 #include "bmp.h"
+#include "basic.h"
 
 void print_bmp_header(sBmpHeader *pHeader) {
     printf("ID: %c%c\n", pHeader->bm[0], pHeader->bm[1]);
